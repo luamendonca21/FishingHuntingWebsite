@@ -22,7 +22,7 @@
 }
 
 .logo {
-  height: 100px;
+  height: 80px;
   border-radius: 10px;
 }
 
@@ -98,6 +98,6 @@
 }
 
 .link:hover {
-  opacity: 0.8;
+  opacity: 0.7;
   transition: 0.5s;
 }
