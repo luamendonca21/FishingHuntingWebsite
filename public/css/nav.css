@@ -8,6 +8,7 @@
 
 .navbar {
   position: sticky;
+  display: flex;
   top: 0;
   left: 0;
   width: 100%;
@@ -28,6 +29,7 @@
 
 .nav-items {
   display: flex;
+  padding: 0 40px;
   align-items: center;
 }
 .search {

@@ -18,7 +18,57 @@
 }
 
 .text-header {
-  font-size: 35px;
+  font-size: 36px;
   font-weight: bold;
   margin-top: 15px;
   color: #a9a9a9;
+}
+
+/* product*/
+.products {
+  padding: 20px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.product-category {
+  font-size: 30px;
+  padding: 0 10vw;
+  font-weight: 500px;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.product-container {
+  padding: 0 10vw;
+  /*alinhar os cards lado a lado*/
+  display: flex;
+  /*adiciona uma scroll bar quando ha overflow em direcao horizontal*/
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+
+.product-card {
+  /*possibilita ao card ter a sua propria width e height*/
+  flex: 0 0 auto;
+  width: 250px;
+  height: 450px;
+  margin-right: 40px;
+}
+
+.product-image {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.product.thumb {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
