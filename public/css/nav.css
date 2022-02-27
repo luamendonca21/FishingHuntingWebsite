@@ -92,6 +92,7 @@
 .link {
   text-transform: capitalize;
   padding: 10px;
+  font-size: 18px;
   margin: 5px;
   text-decoration: none;
   color: #090162;
