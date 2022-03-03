@@ -1,10 +1,11 @@
 @import "nav.css";
+@import "footer.css";
 
 .hero-div {
   display: flex;
   width: 100%;
   justify-content: center;
-  height: 450px;
+  height: 400px;
   background-size: cover;
   background-color: #090162;
   align-items: center;
