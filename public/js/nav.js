@@ -8,9 +8,10 @@ const createNav = () => {
         <div class = "search">
             <input list = "list-search" class = "search-input" placeholder = "Pesquise o que procura">
             <datalist id = "list-search">
-              <option value = "Anzois">
-              <option valiue "Iluminação">
+              <option value = "Anzóis">
+              <option value = "Iluminação">
               <option value = "Canas de pesca">
+              <option value = "Mochilas de pesca">
             </datalist>
             <button class="search-button">Pesquisar</button>
         </div>
