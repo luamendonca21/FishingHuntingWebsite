@@ -6,7 +6,12 @@ const createNav = () => {
     <img src = "img/logo.png" class="logo" alt = "">
     <div class=" nav-items">
         <div class = "search">
-            <input type = "text" class = "search-input" placeholder = "Pesquise o que procura">
+            <input list = "list-search" class = "search-input" placeholder = "Pesquise o que procura">
+            <datalist id = "list-search">
+              <option value = "Anzois">
+              <option valiue "Iluminação">
+              <option value = "Canas de pesca">
+            </datalist>
             <button class="search-button">Pesquisar</button>
         </div>
         <a href="#"><img src = "img/user.png" alt= ""></a>

@@ -64,7 +64,7 @@
 }
 
 .search-button:hover {
-  opacity: 0.8;
+  box-shadow: 1px 2px 22px 0px #090162;
 }
 
 .search-input::placeholder {
@@ -102,5 +102,5 @@
 
 .link:hover {
   opacity: 1;
-  transition: 0.5s;
+  transition: 0.6s;
 }
