@@ -31,3 +31,18 @@ footer {
   opacity: 0.7;
   margin: px 0;
 }
+
+.button-top {
+  position: absolute;
+  border-radius: 10px;
+  width: 5vw;
+  text-transform: capitalize;
+  height: 50px;
+  right: 40px;
+  bottom: 40px;
+  background: #090162;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px;
+}
