@@ -113,6 +113,7 @@
 
 .card-btn:hover {
   background-color: #2f2694;
+  transition: 0.1s;
 }
 
 .product-info {
