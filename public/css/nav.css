@@ -7,7 +7,7 @@
 }
 
 .navbar {
-  position: sticky;
+  position: relative;
   display: flex;
   top: 0;
   left: 0;
