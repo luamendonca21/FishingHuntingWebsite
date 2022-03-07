@@ -64,7 +64,7 @@
 }
 
 .search-button:hover {
-  box-shadow: 1px 2px 22px 0px #090162;
+  box-shadow: 1px 1px 12px 0px #090162;
 }
 
 .search-input::placeholder {
