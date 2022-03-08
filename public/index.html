@@ -5,6 +5,14 @@
       html {
         scroll-behavior: smooth;
       }
+      div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 50px;
+        z-index: 10;
+      }
+</style>
     </style>
     <!-- Reconhecer símbolos da escrita -->
     <meta charset=" "UTF-8">
@@ -22,6 +30,14 @@
     <link rel="stylesheet" href="css/home.css" />
   </head>
   <body>
+    <div class = "sticky">
+      <a href="#navbar">
+        <div class="top-container">
+          <img src="img/arrow-top.png" class="arrow-top" alt="" />
+          <p class="top">Top</p>
+        </div>
+      </a>
+    </div>
     <!-- Elemento nav (navegação da página)-->
     <nav id="navbar" class="navbar"></nav>
 
@@ -155,12 +171,6 @@
       <p class="info">
         <b>Horário de funcionamento</b>: Todos os dias (09:00 - 23:00)
       </p>
-      <a href="#navbar">
-        <div class="top-container">
-          <img src="img/arrow-top.png" class="arrow-top" alt="" />
-          <p class="top">Top</p>
-        </div>
-      </a>
     </footer>
 
     <script src="js/nav.js"></script>
